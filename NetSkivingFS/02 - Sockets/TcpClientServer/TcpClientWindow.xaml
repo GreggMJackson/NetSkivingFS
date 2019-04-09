@@ -1,0 +1,26 @@
+﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:JustWork="clr-namespace:NetSkivingCS"
+        Title="TCP Client" Height="92.778" Width="586.555">
+    <!--<Window.Resources>
+        <JustWork:VM_Window8 x:Key="VM_Window8"/>
+    </Window.Resources>-->
+    <StackPanel Margin="0,0,-0.333,1" Orientation="Horizontal">
+        <StackPanel Orientation="Vertical" Width="470">
+            <StackPanel Orientation="Horizontal">
+                <Label Content="File:" Width="50"></Label>
+                <TextBox Name="txtFile" Width="400" Margin="3"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Server:" Width="50"></Label>
+                <TextBox Name="txtServer" Width="160" Margin="3"></TextBox>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" Width="100">
+            <!--<Button Name="btnBrowse" Click="btnBrowse_Click" Content="Browse" Margin="3" Width="80"></Button>
+                <Button Name="btnSend"   Click="btnSend_Click"   Content="Send"   Margin="3" Width="80"></Button>-->
+            <Button Name="btnBrowse" Content="Browse" Margin="3" Width="80"></Button>
+            <Button Name="btnSend"   Content="Send"   Margin="3" Width="80"></Button>
+        </StackPanel>
+    </StackPanel>
+</Window>

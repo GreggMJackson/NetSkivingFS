@@ -1,0 +1,11 @@
+﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="UDP Client" Height="83.154" Width="246.879">
+    <StackPanel Margin="0,0,-0.333,1" Orientation="Horizontal">
+        <Label Width="100">Remote Host:</Label>
+        <StackPanel Orientation="Vertical">
+            <TextBox x:Name="HostTextBox" Width="130" Height="23"></TextBox>
+            <Button x:Name="Button1">Send UDP Data</Button>
+        </StackPanel>
+    </StackPanel>
+</Window>

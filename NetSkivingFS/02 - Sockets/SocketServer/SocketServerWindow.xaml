@@ -1,0 +1,11 @@
+﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="TCP Server II" Height="687.278" Width="586.555">
+    <StackPanel Margin="5" Orientation="Vertical">
+        <TextBox Name="txtArea" Margin="10,3" Height="614" FontSize="8" VerticalScrollBarVisibility="Visible"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+        <Button Name="btnListen" Content="Listen" Width="100"/>
+        <Button Name="btnClear" Content="Clear" Width="100"/>
+        </StackPanel>
+    </StackPanel>
+</Window>
